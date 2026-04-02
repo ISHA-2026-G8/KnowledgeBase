@@ -21,31 +21,35 @@ A pixel-accurate React implementation of the Workspace Knowledge Base UI, built 
 ---
 
 ## 📁 Folder Structure
-
+---
 
 KnowledgeBaseApp/
-+-- src/                                 
-�   +-- components/
-�   �   +-- CreateKnowledgeModal.jsx
-�   �   +-- Icons.jsx
-�   �   +-- KnowledgeCard.jsx
-�   �   +-- KnowledgeGrid.jsx
-�   +-- data/
-�   �   +-- knowledgeCards.js
-�   �   +-- navigation.js
-�   +-- layout/
-�   �   +-- Sidebar.jsx
-�   �   +-- Topbar.jsx
-�   +-- styles/
-�   �   +-- index.css
-�   +-- App.jsx
-�   +-- main.jsx
-+-- index.html
-+-- package.json
-+-- package-lock.json
-+-- vite.config.js
-+-- README.md
-```
+├── src/
+│   ├── components/
+│   │   ├── CreateKnowledgeModal.jsx
+│   │   ├── Icons.jsx
+│   │   ├── KnowledgeCard.jsx
+│   │   └── KnowledgeGrid.jsx
+│   │
+│   ├── data/
+│   │   ├── knowledgeCards.js
+│   │   └── navigation.js
+│   │
+│   ├── layout/
+│   │   ├── Sidebar.jsx
+│   │   └── Topbar.jsx
+│   │
+│   ├── styles/
+│   │   └── index.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
 
 ## 🚀 Run Locally
 
@@ -174,6 +178,14 @@ npm run deploy
 
 ---
 
+🧠 How It Works
+The app uses mock data from src/data/knowledgeCards.js
+UI is split into:
+Components → Reusable UI blocks
+Layout → Sidebar & Topbar
+Data → Static configuration
+App.jsx composes the full layout and renders the main UI
+
 ## 🎨 Design Tokens
 
 | Token | Value |
@@ -182,3 +194,9 @@ npm run deploy
 | Secondary / Dark | `#1E1B4B` |
 | Border Radius | `6px` |
 | Card Border | `#E5E7EB` |
+
+
+👩‍💻 Author
+
+Isha Yadav
+B.E. Computer Science | Frontend & iOS Developer
