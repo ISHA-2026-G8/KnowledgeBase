@@ -2,7 +2,6 @@
 
 A pixel-accurate React implementation of the Workspace Knowledge Base UI, built as a front-end assignment.
 
----
 
 ## 📸 Screenshots
 
