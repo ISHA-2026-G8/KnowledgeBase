@@ -20,36 +20,34 @@ A pixel-accurate React implementation of the Workspace Knowledge Base UI, built 
 ---
 
 ## 📁 Folder Structure
----
 
 KnowledgeBaseApp/
 ├── src/
-│   ├── components/
-│   │   ├── CreateKnowledgeModal.jsx
-│   │   ├── Icons.jsx
-│   │   ├── KnowledgeCard.jsx
-│   │   └── KnowledgeGrid.jsx
-│   │
-│   ├── data/
-│   │   ├── knowledgeCards.js
-│   │   └── navigation.js
-│   │
-│   ├── layout/
-│   │   ├── Sidebar.jsx
-│   │   └── Topbar.jsx
-│   │
-│   ├── styles/
-│   │   └── index.css
-│   │
-│   ├── App.jsx
-│   └── main.jsx
+│ ├── components/
+│ │ ├── CreateKnowledgeModal.jsx
+│ │ ├── Icons.jsx
+│ │ ├── KnowledgeCard.jsx
+│ │ └── KnowledgeGrid.jsx
+│ │
+│ ├── data/
+│ │ ├── knowledgeCards.js
+│ │ └── navigation.js
+│ │
+│ ├── layout/
+│ │ ├── Sidebar.jsx
+│ │ └── Topbar.jsx
+│ │
+│ ├── styles/
+│ │ └── index.css
+│ │
+│ ├── App.jsx
+│ └── main.jsx
 │
 ├── index.html
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
-
 ## 🚀 Run Locally
 
 ### Prerequisites
